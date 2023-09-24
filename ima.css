@@ -12,7 +12,7 @@ h1 {
 h2 {
     font-size: 40px;
 }
-section{
+.flexiable-container{
     display: flex;
     padding: 2%;
     background-image: url(image/wave.svg);
@@ -33,4 +33,21 @@ img{
     color: white;
     border-radius: 10px;
     text-decoration: none;
+}
+.ad2{
+    text-align: center;
+    padding: 0 20%;
+}
+
+.parent{
+    display: flex;
+    padding: 0 10%;
+}
+.child{
+    box-shadow: 10px 5px 40px black;
+    margin: 5%;
+    padding: 50px;
+    border-radius: 0 20px 50px 0;
+    border-left: 5px solid;
+    border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
 }
